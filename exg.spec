@@ -10,6 +10,7 @@ Group:		Libraries
 Source0:	%{name}-%{snap}.tar.gz
 # Source0-md5:	8a6fd472e017f3d21ec04c118199031d
 Patch0:		%{name}-ac.patch
+URL:		https://gna.org/projects/underware/
 BuildRequires:	autoconf
 BuildRequires:	automake
 BuildRequires:	docbook-utils
@@ -18,10 +19,10 @@ BuildRequires:	libtool
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-3D data exchange library
+3D data exchange library.
 
 %description -l pl
-Biblioteka do wymiany danych 3D
+Biblioteka do wymiany danych 3D.
 
 %package devel
 Summary:	Header files for exg library
