@@ -1,6 +1,6 @@
 %define		snap 20040629
 Summary:	3D data exchange library
-Summary(pl.UTF-8):   Biblioteka do wymiany danych 3D
+Summary(pl.UTF-8):	Biblioteka do wymiany danych 3D
 Name:		exg
 Version:	0.3.0
 Release:	0.%{snap}.1
@@ -26,7 +26,7 @@ Biblioteka do wymiany danych 3D.
 
 %package devel
 Summary:	Header files for exg library
-Summary(pl.UTF-8):   Pliki nagłówkowe biblioteki exg
+Summary(pl.UTF-8):	Pliki nagłówkowe biblioteki exg
 Group:		Development/Libraries
 Requires:	%{name} = %{version}-%{release}
 
@@ -38,7 +38,7 @@ Pliki nagłówkowe biblioteki exg.
 
 %package static
 Summary:	Static files for exg library
-Summary(pl.UTF-8):   Pliki statyczne biblioteki exg
+Summary(pl.UTF-8):	Pliki statyczne biblioteki exg
 Group:		Development/Libraries
 Requires:	%{name}-devel = %{version}-%{release}
 
